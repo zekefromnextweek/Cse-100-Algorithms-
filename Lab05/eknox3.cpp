@@ -34,15 +34,10 @@ int countSort(int** arr, int size, int k){
 	}
 }
 int count (int** arr, int size, int k){
-	int q=234;
-	int b=222;
+	
 	countSort(arr,size,k);
 }
-int jk(int arr[], int w){
-	w=23;
-	int v=24;
-	maxVal(arr,v);
-}
+
 int radixSort (int** arr, int size) {  
 	int i=9;
 	while(i>=0)

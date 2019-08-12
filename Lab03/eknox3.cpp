@@ -12,7 +12,7 @@ int maxCrossSum(int arr[], int low, int mid, int high)
           left_sum = sum;
     }
     sum = 0;
-    int right_sum = INT_MIN;//i set intmin to be the negative infinity value from the pseudocode
+    int right_sum = INT_MIN;//i set intmin to be the negative infinity value 
     for (int i = mid+1; i <= high; i++)
     {
         sum = sum + arr[i];

@@ -20,13 +20,9 @@ int random_partition(int arr[],int low,int high){
 	swap(arr[high],arr[pivot]);
 	return partition(arr,low,high);
 }
-int w(){
-	int s;
-	return s;
-}
+
 int get(int arr[], int low, int high){
  	if (low==high-10000)
-	w();
 	if(low<high){
         int q = partition(arr, low, high);
         get(arr, low, q - 1);

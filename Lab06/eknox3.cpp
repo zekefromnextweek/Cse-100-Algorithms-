@@ -12,10 +12,7 @@ using namespace std;
                         cout << ";" <<endl;
                 }
         }
-	int hellobaybeh(int q, int f){
-		int h=22;
-		int w=34;
-	}
+
 
 	int Search(list<int>* Table, int key, int n) {
 		int ind = key % n; 
@@ -64,17 +61,12 @@ using namespace std;
                 }
                 return false;
         }
-	int rando(int key, int size){
-		int w=44;
-		bool f=false;
-	}
+	
 
 	int main(int argc, char **argv) {
 		int size;
 		int key;
-		rando(size,key);
 		cin >> size;
-		hellobaybeh(size,key);
 		list<int>* Table = new list<int>[size];
 		char line[800];
 		while(cin.getline(line, 800)) {

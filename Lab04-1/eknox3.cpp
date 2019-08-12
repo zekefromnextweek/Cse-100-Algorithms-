@@ -3,7 +3,7 @@
 using namespace std;
 int Max_Heap(int *arr, int size, int i){
         int largest=i;
-        int right=2*i+2;//not sure why the left and right need those values but they work :)
+        int right=2*i+2;
         int left=2*i+1;
         if (left<size && arr[left]>arr[largest]){
                 largest=left;
